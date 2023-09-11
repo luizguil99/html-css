@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem sou eu</title>
+</head>
+<body>
+    <h1>Minhas redes sociais</h1>
+    <h2>Quem sou eu</h2>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/300x300.png" type="image/png">
+        <source media="(max-width:1000px)" srcset="imagens/700x700.png" type="image/png">
+        <img src="imagens/1000x1000.png" alt="Minha foto">
+    </picture>
+    <p>Meu nome é <strong>Luiz Guilherme</strong>, sou profissional em marketing digital e vendas online</p>
+    <h2>Como falar comigo?</h2>
+    <ul>
+        <li><img src="imagens/icone-youtube.png" alt="yt">/<a href="https://www.youtube.com/cursoemvideo">cursoemvideo</a>-Se inscreve la</li>
+        <li><img src="imagens/icone-youtube.png" alt="yt">/<a href="https://www.youtube.com/cursoemvideo">cursoemvideo</a>-Se inscreve la</li>
+        <li><img src="imagens/icone-youtube.png" alt="yt">/<a href="https://www.youtube.com/cursoemvideo">cursoemvideo</a>-Se inscreve la</li>
+        <p>Este é um exemplo <abbr title="Hypertext Markup language">HTML</abbr></p>
+        <h1>Reproduzindo áudios</h1>
+        <p>Vamos aprender a reproduzir áudios</p>
+        <audio src="midia/guanacast-33.mp3" controls autoplay></audio>
+        <!--mp3,wav,ogg-->
+        <!--AGORA OUTRA MANEIRA-->
+        <P>Agora outra maneira</P>
+        <!--No exemplo abaixo se o navegador não conseguir carregar o mp3, ele vai tentar ogg, e se não conseguir OGG ele vai tentar wav-->
+        <audio preload="metadata"autoplay controls loop>
+            <!--O loop recomeça o áudio-->
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+            <source src="midia/guanacast-33.ogg" type="audio/ogg">
+            <source src="midia/guanacast-33.wav" type="audio/wav"> <!--O wav é muito pesado não use-->
+            
+            <p>Infelizmente seu navegador não consegue reproduzir midia <a href="midia/guanacast-33.mp3"download>clique aqui</a> para baixar o arquivo</p>
+
+
+        </audio>
+        
+        
+
+
+    </ul>
+
+    
+</body>
+</html>
